@@ -3,7 +3,6 @@ import mapboxgl from 'mapbox-gl';
 
 
 function MapboxMap({airbox, station}){
-    /*
     mapboxgl.accessToken = 'pk.eyJ1IjoiY2FpY2FpMDQwMiIsImEiOiJja2p6eGZ4d2swYnVkMnZueWozM21nd3V2In0.KrnmI7BZAeeZ-ETTpZow5A';
     useEffect(()=>{
         //style: 'mapbox://styles/mapbox/light-v10'
@@ -22,8 +21,6 @@ function MapboxMap({airbox, station}){
             <link href='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css' rel='stylesheet' />
             <div id='0_map' style={{height:"98%", width:"98%", margin:"1%"}} />
         </>);
-        */
-    return <></>
 }
 
 export default MapboxMap;
